@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: green;
+    font-family: font-family: "Roboto", serif;;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.name_title{
+    float: left;
+    padding: 30px;}
+    
+
+.clear{
+    clear: both;
+}
+
+
+
+.header_contract{
+    float: right;
+    margin: 30px;
+}
+hr{
+    border: 2px solid blue;
+    width: 100;
+    margin: 20px;
+    border-bottom: none;
+    
+}
+
+/*Main Body*/
+.career_object{
+    background-color: blue;
+    color:white;
+    width: 150px;
+    margin: 0 20px 20px 0;
+    padding: 5px;
+    text-align: center;
+    
+}
+.sort_airtical{
+   font-size: 1rem;
+}
+
+.job_history{
+    background-color: blue;
+    color:white;
+    width: 250px;
+    margin: 0 20px 20px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Job History Start*/
+.responsibility{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+
+.network{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.list_style{
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+
+}
+
+/*Academic Qualification start*/
+.ac_details{
+
+    position: relative;
+    left: 20px;
+}
+table,tr,th,td{
+    border:3px dotted black;
+    padding: 20px;
+    margin: 20px;
+    border-collapse: collapse;
+    
+   
+}
+
+tr,th,td{
+    
+}
+/*Academic Qualification End*/
+
+    
+/* Job History End*/
